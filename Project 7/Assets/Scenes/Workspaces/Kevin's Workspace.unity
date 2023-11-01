@@ -2778,35 +2778,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1624701533811974998, guid: a8ecaea13fb93eb4d9c79593942b1641,
-        type: 3}
-      propertyPath: m_IsTrigger
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4912854986262352626, guid: a8ecaea13fb93eb4d9c79593942b1641,
-        type: 3}
-      propertyPath: m_IsTrigger
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 5878066248991334456, guid: a8ecaea13fb93eb4d9c79593942b1641,
         type: 3}
       propertyPath: m_Name
       value: Boat
-      objectReference: {fileID: 0}
-    - target: {fileID: 8792871429901345796, guid: a8ecaea13fb93eb4d9c79593942b1641,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8792871429901345796, guid: a8ecaea13fb93eb4d9c79593942b1641,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 2.75
-      objectReference: {fileID: 0}
-    - target: {fileID: 8792871429901345796, guid: a8ecaea13fb93eb4d9c79593942b1641,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.526
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
