@@ -61,7 +61,6 @@ public class PlayerController : MonoBehaviour
     private void FixedUpdate()
     {
         _isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance * _scale, groundMask);
-        // if(!_isClimbing) 
         Gravity();
     }
 
@@ -109,21 +108,5 @@ public class PlayerController : MonoBehaviour
         _isClimbing = true;
         _characterController.slopeLimit = climbAngle;
     }
-
-    // private void OnCollisionEnter(Collision other)
-    // {
-    //     Debug.Log("collision: " + other.gameObject.tag);
-    //     if(!other.gameObject.CompareTag("Ladder")) return;
-    //
-    //     _isClimbing = true;
-    //     _characterController.slopeLimit = climbAngle;
-    // }
-    //
-    // private void OnCollisionExit(Collision other)
-    // {
-    //     if(!other.gameObject.CompareTag("Ladder")) return;
-    //
-    //     _isClimbing = false;
-    //     _characterController.slopeLimit = _slopeLimit;
-    // }
+    
 }
