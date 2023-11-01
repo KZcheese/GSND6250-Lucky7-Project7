@@ -10,6 +10,8 @@ public class PlayerController : MonoBehaviour
     public float jumpPower = 2;
     public float gravity = 0.1f;
     public float terminalVelocity = 30;
+    public float climbSpeed = 3.0f; // How fast the player climbs
+    private bool _isClimbing; // Check if the player is on the ladder
 
     private CharacterController _characterController;
     public Transform groundCheck;
@@ -23,7 +25,6 @@ public class PlayerController : MonoBehaviour
     private float _skinWidth;
     private float _stepOffset;
 
-    // Start is called before the first frame update
     private void Start()
     {
         _characterController = GetComponent<CharacterController>();
@@ -40,7 +41,8 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
-        Walk();
+        if(_isClimbing && !_isGrounded) Climb();
+        else Walk();
         _characterController.Move(_velocity * (Time.deltaTime * _scale));
         Scale();
     }
@@ -48,7 +50,7 @@ public class PlayerController : MonoBehaviour
     private void FixedUpdate()
     {
         _isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance * _scale, groundMask);
-        Gravity();
+        if(!_isClimbing) Gravity();
     }
 
     private void Scale()
@@ -71,11 +73,25 @@ public class PlayerController : MonoBehaviour
         _velocity = playerTransform.forward * walkInput.y + playerTransform.right * walkInput.x + _velocity.y * Vector3.up;
     }
 
+    private void Climb()
+    {
+        Vector2 climbInput = _playerControls.Walk.ReadValue<Vector2>();
+        _velocity = climbInput.y * climbSpeed * Vector3.up + transform.right * climbInput.x;
+    }
+
     private void Jump(InputAction.CallbackContext context)
     {
         if(!context.performed) return;
-        if(_isGrounded)
-            _velocity.y = jumpPower;
+        if(_isGrounded) _velocity.y = jumpPower;
+    }
 
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.CompareTag("Player")) _isClimbing = true;
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if(other.CompareTag("Player")) _isClimbing = false;
     }
 }
