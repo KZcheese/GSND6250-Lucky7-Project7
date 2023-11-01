@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1801869900802556106}
   - component: {fileID: 968471013416745340}
   - component: {fileID: 2250021292085523684}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: window.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -95,7 +95,7 @@ GameObject:
   - component: {fileID: 3973964951082980961}
   - component: {fileID: 1391414216186116857}
   - component: {fileID: 322898742321394937}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: topdeck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -200,7 +200,7 @@ GameObject:
   - component: {fileID: 4643724818583040555}
   - component: {fileID: 4681249384131904541}
   - component: {fileID: 783211879301036823}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: trim
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -283,7 +283,7 @@ GameObject:
   - component: {fileID: 873122116048079667}
   - component: {fileID: 3123970445890149899}
   - component: {fileID: 1631862116703554047}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: sink
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -366,7 +366,7 @@ GameObject:
   - component: {fileID: 7962244034185165802}
   - component: {fileID: 1386577746016433146}
   - component: {fileID: 5944027981225987099}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Keel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -449,7 +449,7 @@ GameObject:
   - component: {fileID: 5923880159070061225}
   - component: {fileID: 2976367837964093173}
   - component: {fileID: 1005039659689618338}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cabinet handle.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -532,7 +532,7 @@ GameObject:
   - component: {fileID: 7893940627630238931}
   - component: {fileID: 1972302594622049938}
   - component: {fileID: 3818716095754323011}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: window.008
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -615,7 +615,7 @@ GameObject:
   - component: {fileID: 6573111804567252238}
   - component: {fileID: 4912331463964429106}
   - component: {fileID: 7755932639108659124}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: interior wall 1.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -698,7 +698,7 @@ GameObject:
   - component: {fileID: 7703750882058654451}
   - component: {fileID: 3394188080696318422}
   - component: {fileID: 2523822556828682862}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: drawer handle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -781,7 +781,7 @@ GameObject:
   - component: {fileID: 1498971554635116703}
   - component: {fileID: 5622207044530694230}
   - component: {fileID: 8005669485636079701}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: doorfram
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -864,7 +864,7 @@ GameObject:
   - component: {fileID: 4366477230935309849}
   - component: {fileID: 2417237738847844341}
   - component: {fileID: 3842194082884779930}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: window.006
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -948,7 +948,7 @@ GameObject:
   - component: {fileID: 5771880772474945384}
   - component: {fileID: 5530400085050313765}
   - component: {fileID: 1624701533811974998}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: ladder
   m_TagString: Ladder
   m_Icon: {fileID: 0}
@@ -1053,7 +1053,7 @@ GameObject:
   - component: {fileID: 8119199235584438780}
   - component: {fileID: 9031845450657158097}
   - component: {fileID: 8463622670191668260}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: interior wall 1.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1136,7 +1136,7 @@ GameObject:
   - component: {fileID: 1472157361363785084}
   - component: {fileID: 7074368626834353323}
   - component: {fileID: 125253457344735844}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: window
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1219,7 +1219,7 @@ GameObject:
   - component: {fileID: 7971037501980423103}
   - component: {fileID: 3315329820467301182}
   - component: {fileID: 3439312387678104287}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cabinet handle.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1302,7 +1302,7 @@ GameObject:
   - component: {fileID: 7635386906065584212}
   - component: {fileID: 6482363034746843632}
   - component: {fileID: 731703289264916173}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: window.007
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1385,7 +1385,7 @@ GameObject:
   - component: {fileID: 8421778846983283836}
   - component: {fileID: 206637450040428179}
   - component: {fileID: 1997416107473843406}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Table1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1468,7 +1468,7 @@ GameObject:
   - component: {fileID: 1088627467469996464}
   - component: {fileID: 4155812286332100971}
   - component: {fileID: 5501596817978555187}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: rudder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1552,7 +1552,7 @@ GameObject:
   - component: {fileID: 4761861760296374731}
   - component: {fileID: 7315142488486283944}
   - component: {fileID: 5345978988726044558}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Benchpadding
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1658,7 +1658,7 @@ GameObject:
   - component: {fileID: 2795649597202756593}
   - component: {fileID: 487459219942059594}
   - component: {fileID: 4522313503706063118}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: outerhull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1763,7 +1763,7 @@ GameObject:
   - component: {fileID: 1020781712721126934}
   - component: {fileID: 5470831579085932674}
   - component: {fileID: 5191832299197658367}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: window.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1846,7 +1846,7 @@ GameObject:
   - component: {fileID: 5529431591314943319}
   - component: {fileID: 3208439143724827953}
   - component: {fileID: 2113382246459992747}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Stayanchor.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1929,7 +1929,7 @@ GameObject:
   - component: {fileID: 5202297925332379366}
   - component: {fileID: 1228792269748080836}
   - component: {fileID: 7019232286279314627}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: cable end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2012,7 +2012,7 @@ GameObject:
   - component: {fileID: 1234932741913824830}
   - component: {fileID: 245866095793831223}
   - component: {fileID: 1215555158747844652}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cabinet handle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2095,7 +2095,7 @@ GameObject:
   - component: {fileID: 6284787579064075053}
   - component: {fileID: 4321887649949965612}
   - component: {fileID: 5030159838076601640}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: doorframe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2178,7 +2178,7 @@ GameObject:
   - component: {fileID: 8805804879791659151}
   - component: {fileID: 1064719432037460497}
   - component: {fileID: 4216011598134759967}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: window.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2261,7 +2261,7 @@ GameObject:
   - component: {fileID: 777754248695704956}
   - component: {fileID: 7779154875654796129}
   - component: {fileID: 1955944222261675005}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2344,7 +2344,7 @@ GameObject:
   - component: {fileID: 5918699760842409539}
   - component: {fileID: 8794649497533491058}
   - component: {fileID: 1007129494712934556}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Mast
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2428,7 +2428,7 @@ GameObject:
   - component: {fileID: 2839792246329624946}
   - component: {fileID: 2086650679422934907}
   - component: {fileID: 6400798511815892415}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: under bed cabinet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2533,7 +2533,7 @@ GameObject:
   - component: {fileID: 1592310788848381820}
   - component: {fileID: 2275206333988251659}
   - component: {fileID: 8542637129916839821}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: window.004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2617,7 +2617,7 @@ GameObject:
   - component: {fileID: 7307148047986389513}
   - component: {fileID: 7508796180756649301}
   - component: {fileID: 8157137021249102044}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: bench
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2720,7 +2720,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 400605763867888202}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Boat
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2801,7 +2801,7 @@ GameObject:
   - component: {fileID: 5751255116719395745}
   - component: {fileID: 4498924577939559171}
   - component: {fileID: 9142490887114537963}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: table2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2884,7 +2884,7 @@ GameObject:
   - component: {fileID: 5357129487101077650}
   - component: {fileID: 1914668260641905143}
   - component: {fileID: 6480138431783627643}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Ceiling
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2967,7 +2967,7 @@ GameObject:
   - component: {fileID: 4692122095643679346}
   - component: {fileID: 3589106037684874620}
   - component: {fileID: 430882061867016426}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: roof
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3050,7 +3050,7 @@ GameObject:
   - component: {fileID: 4863723973251449535}
   - component: {fileID: 5419223697273427333}
   - component: {fileID: 3621652704104692927}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3134,7 +3134,7 @@ GameObject:
   - component: {fileID: 4163768543705713511}
   - component: {fileID: 4515889108404252757}
   - component: {fileID: 4912854986262352626}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: ladder.001
   m_TagString: Ladder
   m_Icon: {fileID: 0}
@@ -3239,7 +3239,7 @@ GameObject:
   - component: {fileID: 126037694075858460}
   - component: {fileID: 6932972918787257741}
   - component: {fileID: 5620947222900889317}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cabinet handle.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3322,7 +3322,7 @@ GameObject:
   - component: {fileID: 7852117593178008950}
   - component: {fileID: 3799984067155846825}
   - component: {fileID: 252814621733327530}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: side table
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3405,7 +3405,7 @@ GameObject:
   - component: {fileID: 2389698653583295191}
   - component: {fileID: 3607126686714107500}
   - component: {fileID: 2974232028086460375}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: under bed cabinet.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3488,7 +3488,7 @@ GameObject:
   - component: {fileID: 6155729700421069836}
   - component: {fileID: 7553326178527567440}
   - component: {fileID: 6139543884444345795}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: window.009
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3572,7 +3572,7 @@ GameObject:
   - component: {fileID: 5733523563037371852}
   - component: {fileID: 6299267285355514678}
   - component: {fileID: 2464308156054089730}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: rear.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3677,7 +3677,7 @@ GameObject:
   - component: {fileID: 4716530330369037691}
   - component: {fileID: 2984144572618022616}
   - component: {fileID: 2986464336509629786}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: window.005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3760,7 +3760,7 @@ GameObject:
   - component: {fileID: 8247034748984969672}
   - component: {fileID: 255962997316232370}
   - component: {fileID: 2585523819119670620}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: boom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3843,7 +3843,7 @@ GameObject:
   - component: {fileID: 3609095470615938287}
   - component: {fileID: 3192331563489254284}
   - component: {fileID: 473279509107753537}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: drawer handle.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3926,7 +3926,7 @@ GameObject:
   - component: {fileID: 5682449396295677647}
   - component: {fileID: 3631260673728679118}
   - component: {fileID: 5730143849372338115}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: innerhull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4009,7 +4009,7 @@ GameObject:
   - component: {fileID: 7892126129996341829}
   - component: {fileID: 5702769640094678487}
   - component: {fileID: 397486834421728287}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Inner Cieling trim
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4093,7 +4093,7 @@ GameObject:
   - component: {fileID: 8322951819914236866}
   - component: {fileID: 4371716417254268034}
   - component: {fileID: 4172443028833480987}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: sinkholder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4196,7 +4196,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2860384716275106961}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Water Mask
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4231,7 +4231,7 @@ GameObject:
   - component: {fileID: 690591900199754496}
   - component: {fileID: 2597388603970629409}
   - component: {fileID: 1898487259844796227}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: interior wall 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4314,7 +4314,7 @@ GameObject:
   - component: {fileID: 2370534743371643874}
   - component: {fileID: 6211237432217700658}
   - component: {fileID: 8137601649910087526}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: mainsheet anchor rail
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -182,15 +182,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f065eedf3879cc458f986246043adf2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  walkSpeed: 4
-  jumpPower: 5
-  gravity: 0.25
+  walkSpeed: 2
+  jumpPower: 2.5
+  gravity: 0.15
   terminalVelocity: 30
+  climbAngle: 90
+  climbSpeed: 1
   groundCheck: {fileID: 7551628800841226275}
-  groundDistance: 0.1
+  groundDistance: 0.08
   groundMask:
     serializedVersion: 2
-    m_Bits: 1
+    m_Bits: 88
 --- !u!114 &2457696440347275962
 MonoBehaviour:
   m_ObjectHideFlags: 0

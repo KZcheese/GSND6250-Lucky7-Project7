@@ -10,8 +10,12 @@ public class PlayerController : MonoBehaviour
     public float jumpPower = 2;
     public float gravity = 0.1f;
     public float terminalVelocity = 30;
-    public float climbSpeed = 3.0f; // How fast the player climbs
+
+    // Climbing Stuff
+    public float climbAngle = 90;
+    public float climbSpeed = 3; // How fast the player climbs
     private bool _isClimbing; // Check if the player is on the ladder
+    private float _slopeLimit;
 
     private CharacterController _characterController;
     public Transform groundCheck;
@@ -30,6 +34,7 @@ public class PlayerController : MonoBehaviour
         _characterController = GetComponent<CharacterController>();
         _skinWidth = _characterController.skinWidth;
         _stepOffset = _characterController.stepOffset;
+        _slopeLimit = _characterController.slopeLimit;
 
         _playerControls = new PlayerControls().Player;
         _playerControls.Enable();
@@ -41,16 +46,28 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
-        if(_isClimbing && !_isGrounded) Climb();
+        if(_isClimbing)
+        {
+            Climb();
+            _isClimbing = false;
+            _characterController.slopeLimit = _slopeLimit;
+        } 
         else Walk();
         _characterController.Move(_velocity * (Time.deltaTime * _scale));
         Scale();
+
     }
 
     private void FixedUpdate()
     {
         _isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance * _scale, groundMask);
-        if(!_isClimbing) Gravity();
+        // if(!_isClimbing) 
+        Gravity();
+    }
+
+    private void OnDrawGizmos()
+    {
+        Gizmos.DrawSphere(groundCheck.position, groundDistance * _scale);
     }
 
     private void Scale()
@@ -85,13 +102,28 @@ public class PlayerController : MonoBehaviour
         if(_isGrounded) _velocity.y = jumpPower;
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void OnControllerColliderHit(ControllerColliderHit hit)
     {
-        if(other.CompareTag("Player")) _isClimbing = true;
+        if(!hit.gameObject.CompareTag("Ladder") || _isClimbing) return;
+
+        _isClimbing = true;
+        _characterController.slopeLimit = climbAngle;
     }
 
-    private void OnTriggerExit(Collider other)
-    {
-        if(other.CompareTag("Player")) _isClimbing = false;
-    }
+    // private void OnCollisionEnter(Collision other)
+    // {
+    //     Debug.Log("collision: " + other.gameObject.tag);
+    //     if(!other.gameObject.CompareTag("Ladder")) return;
+    //
+    //     _isClimbing = true;
+    //     _characterController.slopeLimit = climbAngle;
+    // }
+    //
+    // private void OnCollisionExit(Collision other)
+    // {
+    //     if(!other.gameObject.CompareTag("Ladder")) return;
+    //
+    //     _isClimbing = false;
+    //     _characterController.slopeLimit = _slopeLimit;
+    // }
 }
