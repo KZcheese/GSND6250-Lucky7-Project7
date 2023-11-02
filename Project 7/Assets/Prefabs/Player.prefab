@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8634686542656105383}
   - component: {fileID: 3097356385169999207}
   - component: {fileID: 3401143035021397017}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Player Capsule
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -119,7 +119,7 @@ GameObject:
   - component: {fileID: 1659010196361859306}
   - component: {fileID: 6252074305033188582}
   - component: {fileID: 2457696440347275962}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -189,10 +189,10 @@ MonoBehaviour:
   climbAngle: 90
   climbSpeed: 1
   groundCheck: {fileID: 7551628800841226275}
-  groundDistance: 0.08
+  groundDistance: 0.1
   groundMask:
     serializedVersion: 2
-    m_Bits: 88
+    m_Bits: 89
 --- !u!114 &2457696440347275962
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -217,7 +217,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7551628800841226275}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ground Check
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -251,7 +251,7 @@ GameObject:
   - component: {fileID: 8504730778391800358}
   - component: {fileID: 9103376652522582564}
   - component: {fileID: 1412079429010013854}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
