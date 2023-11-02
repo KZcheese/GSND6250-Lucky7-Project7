@@ -51,23 +51,23 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Color_alpha: 1.37
+    - _Color_alpha: 1.41
     - _Float: 0.3
-    - _Float_1: 1
+    - _Float_1: 0.96
     - _QueueControl: 0
     - _QueueOffset: 0
     - _cloud_density: 0.3
-    - _cloud_size: 35
+    - _cloud_size: 43
     - _distort_scale: 50
     - _origin: -955.76
-    - _origin_x: -1158.08
-    - _origin_y: -454.3
+    - _origin_x: -2194.3
+    - _origin_y: -529.2
     - _spread_x: 1000
-    - _spread_y: 936
+    - _spread_y: 50
     - _vertex_offset: 0.01
     m_Colors:
     - _Color1: {r: 0, g: 0, b: 0, a: 0}
-    - _Color2: {r: 0.028301895, g: 0.028301895, b: 0.028301895, a: 0}
+    - _Color2: {r: 0, g: 0, b: 0, a: 0}
     - _Color_x: {r: 0, g: 0, b: 0, a: 0}
     - _Color_y: {r: 1, g: 1, b: 1, a: 0}
     - _direction: {r: 0.005, g: 0, b: 0, a: 0}
