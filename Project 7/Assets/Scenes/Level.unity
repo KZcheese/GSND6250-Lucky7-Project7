@@ -2130,6 +2130,11 @@ PrefabInstance:
       propertyPath: m_Radius
       value: 0.33
       objectReference: {fileID: 0}
+    - target: {fileID: 2457696440347275962, guid: d9db30817db153b46bdf31560dba2f91,
+        type: 3}
+      propertyPath: lookSpeed
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 3430783997747202786, guid: d9db30817db153b46bdf31560dba2f91,
         type: 3}
       propertyPath: m_LocalRotation.w
